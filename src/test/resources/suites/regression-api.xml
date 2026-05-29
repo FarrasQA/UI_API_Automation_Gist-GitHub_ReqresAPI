@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Suite">
+
+    <listeners>
+        <listener class-name="core.TestListener"/>
+    </listeners>
+
+    <test name="Regression API Test">
+
+        <classes>
+
+            <class name="api.tests.CreateUserTest"/>
+            <class name="api.tests.UpdateUserTest"/>
+            <class name="api.tests.DeleteUserTest"/>
+            <class name="api.tests.GetListUsersTest"/>
+            <class name="api.tests.GetSingleUserTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

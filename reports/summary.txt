@@ -1,0 +1,4 @@
+PASSED=5
+FAILED=0
+SKIPPED=0
+REPORT_PATH=C:\Users\ASUS\IdeaProjects\AutomationTest-Gist-GitHub/reports/extent-report_2026-05-29_16-05-39.html
